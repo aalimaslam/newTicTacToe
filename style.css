@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Pacifico;
+}
+body{
+    background:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+td button{
+    height:100px;
+    width:100px;
+    background:#fca311;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    margin:2px;
+    font-size: 1.5rem;
+}
+button:disabled{
+    color:white;
+}
+table{
+    border-collapse: collapse;
+}
+.heading{
+    padding:20px 0px;
+    user-select: none;
+    color:white;
+    font-size:3rem;
+    text-align: center;
+}
+.info-container{
+    padding:20px 0px;
+    color:#ddd;
+    text-align: left;
+}
+.info-container div{
+    padding:10px 0px;
+    word-spacing: 10px;
+}
+.info-container span{
+    font-size: 2rem;
+}
+.functionalBtns button{
+    padding:10px 30px;
+    background:#fca311;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

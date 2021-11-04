@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="updateInfo()">
+    <div class="container">
+        <div class="heading">
+            TIC TAC TOE
+        </div>
+        <div class="game-container">
+            <div class="game">
+                <table>
+                    <tr>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                        <td class='btn'>
+                            <button></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class='wins'>X WON : <span id='x'>00</span></div>
+            <div class='wins'>O WON : <span id='o'>00</span></div>
+            <div class='wins'>DRAW : <span id='draw'>00</span></div>
+            <div class='wins'>Total : <span id='total'>00</span></div>
+        </div>
+        <div class="functionalBtns">
+            <button class="clear" onclick="clearInfo()">Clear Score</button>
+            <button class="restart" onclick="window.location='/'">Restart Game</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
